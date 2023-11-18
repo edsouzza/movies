@@ -1,7 +1,10 @@
-.container{
+.categoria{
     width: 100vw;
     background-color: var(--cinzaescuro);
     color: var(--white);
     text-align: center;
     padding-block: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
