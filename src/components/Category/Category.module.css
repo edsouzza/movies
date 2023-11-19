@@ -1,0 +1,13 @@
+.category{
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+.category div{    
+    display: flex;       
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 60%;
+    align-items: center;  
+    justify-content: center;  
+}
