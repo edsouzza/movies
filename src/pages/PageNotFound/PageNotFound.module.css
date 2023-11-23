@@ -1,0 +1,16 @@
+.container{
+    padding-top: 45px;
+    height: 92.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cinzaescuro);
+}
+.container h2{
+    color: var(--white);
+    padding-bottom: 2em;
+}
+.container img{
+    width: 40em;
+}

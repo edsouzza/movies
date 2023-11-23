@@ -1,13 +1,14 @@
 import styles from './Header.module.css';
+import { Link } from 'react-router-dom'
 
 function Header()
 {
     return(
         <header className={styles.header}>
-            <span>EdsoFlix</span>
+            <Link to="/"><span>EdsoFlix</span></Link>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">Assistir</a>
+                <Link to="/">Home</Link>
+                <Link to="/watch">Assistir</Link>
             </nav>
         </header>        
     )

@@ -1,0 +1,9 @@
+.watch{
+    padding-top: 125px;
+    padding-bottom: 65px;
+}
+.watch iframe{
+    width: 60%;
+    height: 39.2rem;
+    margin-top: .5em;
+}

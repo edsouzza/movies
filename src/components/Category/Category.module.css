@@ -11,3 +11,6 @@
     align-items: center;  
     justify-content: center;  
 }
+.titulo{
+    padding-block: 1rem;
+}
